@@ -45,5 +45,8 @@ var app = {
         receivedElement.setAttribute('style', 'display:block;');
 
         console.log('Received Event: ' + id);
+
+        window.open('http://www.skobe.de', '_system');
+
     }
 };
